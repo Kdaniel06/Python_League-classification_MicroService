@@ -137,11 +137,11 @@ This will start the server at http://127.0.0.1:8000.
 
 ### Automatic testing
 If you want to test the endpoints you can use **PyTest**. Install pytest in your environment and run the code:
-    ```bash
-    pytest
-    ```
+```bash
+   pytest
+```
 
-After run the command you will be able to see the passed and failed tests.
+After run the command you will be able to see the passed and failed tests. Yoou can go to the *testing_jsons.py* file and change the requests to test the endpoints in different situations.
 
 ## Contributions
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
