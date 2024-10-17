@@ -7,6 +7,7 @@ This microservice is built with FastAPI and allows you to manage the classificat
 - Python 3.7 or higher
 - FastAPI
 - Pydantic
+- Pytest
 
 ## Installation
 
@@ -133,6 +134,14 @@ This will start the server at http://127.0.0.1:8000.
     ...
 }
 ```
+
+### Automatic testing
+If you want to test the endpoints you can use **PyTest**. Install pytest in your environment and run the code:
+    ```bash
+    pytest
+    ```
+
+After run the command you will be able to see the passed and failed tests.
 
 ## Contributions
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
